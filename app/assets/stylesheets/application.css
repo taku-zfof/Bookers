@@ -20,6 +20,11 @@
   box-sizing: border-box;
 }
 
+.top p{
+  margin:33px;
+}
+
+
 .flash{
   color: green;
 }
@@ -41,6 +46,9 @@ p, ol, ul, td {
   font-size: 13px;
   line-height: 18px;
 
+}
+a{
+  color: #666666;
 }
 
 td{
