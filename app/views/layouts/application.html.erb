@@ -11,6 +11,13 @@
   </head>
 
   <body>
+    <def class=flash>
+     <%if flash[:notice]%>
+    　<%= flash[:notice] %>
+     <%end%>
+    </def>
+    
+
     <%= yield %>
   </body>
 </html>

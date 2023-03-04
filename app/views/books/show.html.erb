@@ -1,8 +1,12 @@
-<p>title:<%=@book.title%></p>
-<p>body:<%=@book.body%></p>
+<div class="box">
 
-<span><%=link_to("Edit","/books/#{@book.id}/edit")%></span>
-<span>|</span>
-<span><%=link_to("Back","/books")%></span>
+  <p class="show-p"><span class="bold">Title:</span><%=@book.title%></p>
+  <p class="show-p"><span class="bold">Body:</span><%=@book.body%></p>
+
+  <p><span><%=link_to("Edit","/books/#{@book.id}/edit")%></span>
+  <span>|</span>
+  <span><%=link_to("Back","/books")%></span></p>
+
+</div>
 
 
